@@ -1,0 +1,12 @@
+.post-card{
+    max-width: 550px;
+    margin: 30px auto;
+    padding: 25px;
+    text-align: center;
+}
+.label-browse{
+    color: white;
+    font-size: large;
+    font-family: cursive;
+    font-weight: lighter;
+}

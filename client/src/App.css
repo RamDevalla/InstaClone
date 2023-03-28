@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+.nav-wrapper{
+    background-color: whitesmoke !important;
+}
+a{
+    color: black !important;
+    font-size: xx-large;
+    font-family: cursive;
+    
+}
+.brand-logo, h2, p{
+    font-family: 'Grand Hotel', cursive;
+}
+.my-card{
+    margin-top: 35px;
+}
+.card-auth{
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+/* For inut field line font color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid orange !important;
+    box-shadow: 0 1px 0 0 orange !important;
+  }
+  #toast-container{
+    /* default for materialize css to make any changes to toast */
+  }

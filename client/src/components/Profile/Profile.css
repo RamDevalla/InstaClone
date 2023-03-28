@@ -1,0 +1,32 @@
+.container{
+    max-width: 50%;
+    margin: "0px auto";
+}
+.Profile-Image{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.first-div{
+    display: flex;
+    justify-content: space-around;
+    margin: 18px 0px;
+    border-bottom: 1px solid grey;
+}
+.postdetails-section{
+    display: flex;
+    justify-content: space-between;
+    width: 108%;
+}
+.gallery-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.gallery-image{
+    width: 30%;
+    height: 260px;
+    border: 1px solid orange;
+    margin: 4px;
+}

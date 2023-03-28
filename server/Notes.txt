@@ -1,0 +1,33 @@
+// Entire step by step of backend functionality for instaclone process.
+
+* Create a folder and "npm init" run syntax in terminal which creates a package.json in the folder.
+* "npm i express nodemon" run in terminal which installs express and nodemon
+* Create a "app" file which will be a wrapper file for the project
+* Run a "hello world" from basic express code "get"and "listen" and checkout server connected succesfully or not.
+* Once response will be showed in the "localhost : port" , next
+* Give some custom middleware and check working finely or not, with app.use(custommiddleware) which includes next() in parameters
+* SignIn to MongoDB Atlas and create a database with "ProjectName"  and keep the userid and password.
+* Install mongoose "npm i mongoose"
+* Create "key.js" file and export the database link of MongoDB.
+* Check the database connection by using "mongoose.connection.on()"
+* Create a router folder for routes, create a "Router.js" file.
+* Give the api router.get(), router.post() in the router file.
+* Import the router into app file and use the syntax "app.use(router)".
+* Check out the api in POSTMAN application is everything working fine or not.
+* Create a Model folder and create a user.js file in it.
+* In user.js file will create a mongoose.Schema which will a structure of data of user will gonna store in database.
+* After designing the userSchema , export it and import inside the 'Router' file.
+* Destructure the req.body into the userSchema values and create a user which will store in DB.
+
+* At Post '/SignUp' page , user.findOne({email: email}, callback) to check existing user.
+* user.save() to save the document in the DB collection.
+* password will be not secure if simply passed the data in DB
+* So install "bcrypt" which like a encryptor secures the password.
+* use bcrypt.hash(password, (number for stronger bcrypt)) to hash the password and run out in POSTMAN application.
+* Check the collection password will be secured.
+** Check once for all the SignUp functionalities and proceed for SignIn
+
+*SignIn
+*Authentication JWT token, middlewarefor protected login
+(npm install jsonwebtoken --save) to install jsonwebtoken
+*
